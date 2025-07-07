@@ -38,7 +38,7 @@ export default function Home() {
   const scrollProgress = useScrollProgress(containerRef);
 
   return (
-    <div ref={containerRef} className="bg-black h-[800vh] w-screen">
+    <div ref={containerRef} className="bg-black h-[900vh] w-screen">
       <ImageSequence scrollProgress={scrollProgress} />
     </div>
   );
